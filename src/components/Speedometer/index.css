@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.image {
+  width: 250px;
+  height: 200px;
+}
+.upper-para {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+.lower-para {
+  color: white;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+  padding: 5px;
+  border: 0px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.brake-btn {
+  background-color: transparent;
+  padding: 5px;
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
